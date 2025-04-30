@@ -1,65 +1,67 @@
-# 📦 SIA Web
+# 🌐 SIA Web
 
 ## 🧭 Overview
-- Short Summary of the app and what problem it solves. 
-- Include a screnshot of GIF here is possible.
-![Screenshot](./assets/screenshot.png) <!-- Replace with your image path -->
+**SIA Web** is a planned web-based extension of the SIA (Sistema Integral de Abastecimientos) platform at AHMSA. The goal of this system was to centralize multiple procurement and material management modules under one scalable, modern, and accessible platform using web technologies.
+
+While the original SIA was a Windows Forms application, **SIA Web** was designed to be its cross-platform successor, ensuring users could interact with procurement tools from any device or location securely.
 
 ## 💡 Idea & Concept
-- What inspired this? 
-- Who is it for? 
+SIA Web was envisioned to:
+- Unify various departmental workflows (Purchasing, Warehouse, Projects)
+- Enable real-time access to purchase approvals, petty cash requests, material tests
+- Offer dashboards, alerts, and KPIs to decision-makers
+- Reduce reliance on desktop-bound systems and encourage mobility
 
-## ✨ Features & Functionality
-- Bullet list of main features 
+## ✨ Features & Functionality (Planned or Proposed)
+- 🧾 Purchase Request Management (incl. petty cash & materials)
+- 🔎 Vendor and product database search
+- 📥 Digital document uploads (quotes, invoices, evidence)
+- 💬 Notifications and reminders
+- 🧩 Module Integration: Petty Cash, Material Testing, Contracts, Estimations
+- 📊 Dashboard for KPIs and workflow summaries
+- 🌐 Multi-role login with permissions per department
 
-## ⚙️ Tech Stack
-- Language(s), framework, libraries, services, tools, deployment platform. 
+## ⚙️ Tech Stack (Planned)
+- **Frontend:** HTML, CSS, JavaScript (React or Razor Pages)
+- **Backend:** ASP.NET Core
+- **Database:** SQL Server (shared with legacy SIA)
+- **Authentication:** Role-based with Microsoft Identity or Azure AD (planned)
+- **IDE:** Visual Studio
 
 ## 🏗 Architecture & Design
-- Describe how its structured (e.g., MVC, Monolith, Microservices)
-- Include diagrams if applicable 
+- Modular design to support multi-department expansion
+- Cloud-hostable ASP.NET Core backend
+- Role-based access control and session logging
+- Integrated with legacy SIA DB structure
 
 ## 🚀 Installation & Setup
-- **Prerequisites:** 
+- **Hosting:** Company intranet or Azure App Services
+- **Access:** Authenticated employees based on role
+- **Requirements:** Secure HTTPS and endpoint authorization
 
-- **Installation Steps:** 
+> **Note:** As of 2025, some features remain under prototype or proposal status.
 
-- **Deployment Environment:** 
-
-- **Access:** 
-
-> **Note:** 
-
-## 🧑‍💻 Usage
-- How to use the software after setup 
-- CLI Commands, UI Walkthrough, or API Endpoints. 
-
-## 🔍 My Role & Contributions
-- 💼 Full-stack development
-- 🧱 Architecture design
-- 🐞 Bug fixing and optimization
-- 🤝 Collaboration with design/product teams
+## 🧑‍💻 My Role & Contributions
+- 💡 Proposed architecture and tech stack for SIA Web
+- 🔄 Migrated initial data models and logic from WinForms version
+- 📋 Designed prototype UI for dashboards and modules
+- 💬 Collaborated with users to identify critical UX needs
 
 ## 🧗 Challenges & Learnings
-- Major issues you faced and how you overcome them.
-- What you learned from the process.
+- Planned DB reuse while preserving transactional integrity
+- Cross-department feature alignment for multi-module cohesion
+- UX redesign for responsive and mobile-friendly operation
 
 ## 📈 Future Enhancements
-- Features you plan to build. 
-- Known bugs or technical debt. 
-
-## 🤝 Contributing
-- How other can contribute (if open source)
+- Build fully responsive UI with multi-tenant support
+- Integrate Power BI for reporting and forecasting
+- Enable mobile workflows for warehouse and field engineers
 
 ## 🪪 License
-⚠️ License Notice  
-This repository was originally published under the MIT License.  
-As of April 22, 2025, the license has been changed to **CC BY-NC-ND 4.0**.  
-See the LICENSE file for details.
+⚠️ **Internal Use Only**  
+Originally under MIT License. Changed to **CC BY-NC-ND 4.0** as of April 22, 2025.
 
-## 🔗 Additional Resources
-- **Documentation:** 
-
-- **Related Projects:** 
-
-- **Live Demo Link:** 
+## 🔗 Related Projects
+- **[SIA](https://github.com/HermiloOrtega/SIA)**
+- **[SIA – Petty Cash Module](https://github.com/HermiloOrtega/SIA-Petty-Cash)**
+- **[SIA – Material Testing Module](https://github.com/HermiloOrtega/SIA-Material-Testing)**
